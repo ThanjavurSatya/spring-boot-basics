@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+//@Primary
 public class QuickSortImpl implements SortAlgorithm{
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     public int getSortedElement(int[] source,int searchKey)

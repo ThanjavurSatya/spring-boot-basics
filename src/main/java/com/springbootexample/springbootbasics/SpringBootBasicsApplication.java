@@ -11,9 +11,10 @@ public class SpringBootBasicsApplication {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(SpringBootBasicsApplication.class, args);
 		SortManager sortManager = applicationContext.getBean(SortManager.class);
+		SortManager sortManager1 = applicationContext.getBean(SortManager.class);
+		System.out.println(sortManager);
+		System.out.println(sortManager1);
 		int sortedElement = sortManager.getSortedElement(new int[]{1,2,3,4,5},3);
 		System.out.println("SortedElement is : " + sortedElement);
-
 	}
-
 }
