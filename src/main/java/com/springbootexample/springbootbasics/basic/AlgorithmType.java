@@ -1,4 +1,4 @@
-package com.springbootexample.springbootbasics;
+package com.springbootexample.springbootbasics.basic;
 
 public enum AlgorithmType {
     BINARY_SEARCH,
